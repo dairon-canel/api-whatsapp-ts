@@ -1,6 +1,6 @@
 import 'dotenv/config';
 import axios from 'axios';
-import LeadExternal from '../../domain/lead/lead-external.repository';
+import LeadExternal from '../../domain/lead-external.repository';
 
 const META_TOKEN = process.env.META_TOKEN || '';
 const META_ID_NUMBER = process.env.META_ID_NUMBER || '';
